@@ -1,3 +1,95 @@
-body {
-    font-size: 24px;
+*{
+    font-family: poppins,inter,sans-serif;
 }
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+#get{
+    background-color: #ED661F;
+    border-radius: 10px;
+}
+.introduction{
+    background-image: url("https://drive.google.com/file/d/1JOplXxMfjtG7T2gNXmPHHva1tuf8jrXu/view?usp=sharing");
+    background-color: top right;
+    
+
+}
+#exploremore{
+    background-color: #ED661F;
+    color: white;
+    height: 80px;
+    width: 200px;
+    font-size: 25px;
+}
+#rates{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:right;
+    box-shadow: 2px 0px 4px;
+    margin-left: 900px;
+    padding: 50px;
+}
+.Purpose{
+    display:flex;
+    flex-direction: row;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.Popular{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+
+}
+.Great{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+
+}
+ .Comments{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    align-items: center;
+ }
+ .Communicate{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+ }
+ .foodnote{
+    background-color: black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+ }
+ .Agriplus{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    list-style: none;
+ }
+ #Security{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
